@@ -1,3 +1,5 @@
+package EjerciciosIF_entrada_salida;
+
 import java.util.Scanner;
 
 public class Notas {

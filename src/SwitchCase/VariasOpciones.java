@@ -31,10 +31,5 @@ public class VariasOpciones {
                 System.out.println("opción inválida");
         }
 
-
-
-
-
-
     }
 }
