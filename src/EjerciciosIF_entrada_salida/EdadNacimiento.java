@@ -6,27 +6,28 @@ public class EdadNacimiento {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-       int añoActual = 2023;
+       int anoActual = 2024;
        int mesActual = 10;
        int diaActual = 23;
+       int edad;
 
         System.out.println("dime tu dia de nacimiento");
-        int dia = scanner.nextInt();
+        int diaNacimietno = scanner.nextInt();
 
         System.out.println("dime tu mes de nacimiento");
-        int mes = scanner.nextInt();
+        int mesNacimiento = scanner.nextInt();
 
         System.out.println("dime tu año de nacimiento");
-        int año = scanner.nextInt();
+        int anoNacimiento = scanner.nextInt();
 
-        if (año <= añoActual && mes <= mesActual && dia <= diaActual){
-
-            año = añoActual - año;
-            mes = mesActual - mes;
-            dia = diaActual - dia;
-
-            if (añoActual > año)
+        edad = anoActual - anoNacimiento;
+        if (anoNacimiento > anoActual) {
+            System.out.println("ERROR");
+        } else if ( mesActual < mesNacimiento || diaActual < diaNacimietno && mesNacimiento == mesActual ) {
+                edad--;
+            System.out.println("tu edad es: " + edad);
+        } else {
+            System.out.println("tu edad es: " + edad);
         }
-
     }
 }
