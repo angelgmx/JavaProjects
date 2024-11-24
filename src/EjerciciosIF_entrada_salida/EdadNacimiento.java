@@ -7,8 +7,8 @@ public class EdadNacimiento {
         Scanner scanner = new Scanner(System.in);
 
        int anoActual = 2024;
-       int mesActual = 10;
-       int diaActual = 23;
+       int mesActual = 11;
+       int diaActual = 7;
        int edad;
 
         System.out.println("dime tu dia de nacimiento");
