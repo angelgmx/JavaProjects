@@ -9,7 +9,7 @@ public class Ejercicio8 {
         Random aleatorios = new Random();
         double[] numerosRandom = new double[100];
         for (int recorrido = 0; recorrido < numerosRandom.length; recorrido++) {
-            numerosRandom[recorrido] = aleatorios.nextDouble(0.0,1.0);
+            numerosRandom[recorrido] = aleatorios.nextDouble(0.0, 1.0);
         }
         Scanner scanner = new Scanner(System.in);
         System.out.print("dime un número y te diré el número de valores superiores o iguales: ");

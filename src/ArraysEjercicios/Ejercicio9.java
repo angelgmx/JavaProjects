@@ -10,7 +10,7 @@ public class Ejercicio9 {
         int[] numerosRandom = new int[100];
 
         for (int recorrido = 0; recorrido < numerosRandom.length; recorrido++) {
-            numerosRandom[recorrido] = aleatorios.nextInt(1,10);
+            numerosRandom[recorrido] = aleatorios.nextInt(1,11);
             System.out.println("Numero " + recorrido + ":" +numerosRandom[recorrido] );
 
         }
@@ -22,9 +22,9 @@ public class Ejercicio9 {
 
         for (int posiciones = 0; posiciones < numerosRandom.length; posiciones++) {
             if (numerosRandom[posiciones] == numero) {
-
+                System.out.print("[ " + posiciones + " ]");
             }
-            System.out.print("[ " + posiciones + " ]");
+
 
         }
     }

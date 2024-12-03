@@ -1,0 +1,2 @@
+public class CadenaTextoStrings {
+}
