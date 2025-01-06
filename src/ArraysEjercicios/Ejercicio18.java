@@ -1,6 +1,7 @@
 package ArraysEjercicios;
 
 import java.util.Arrays;
+import java.util.Random;
 
 public class Ejercicio18 {
     public static void main(String[] args) {
@@ -8,8 +9,9 @@ public class Ejercicio18 {
         int[] array = new int[30];
 
         // Rellenar el array con valores aleatorios entre 0 y 9
+        Random random = new Random();
         for (int i = 0; i < array.length; i++) {
-            array[i] = (int) (Math.random() * 10);
+            array[i] = random.nextInt(0,11);
         }
 
         // Mostrar el array original

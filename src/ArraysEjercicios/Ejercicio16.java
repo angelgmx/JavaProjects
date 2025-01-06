@@ -19,7 +19,6 @@ public class Ejercicio16 {
             Arrays.fill(valores, inicio, inicio +i, i );
             inicio += i;
 
-
         }
 
         System.out.println(Arrays.toString(valores));
