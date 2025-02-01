@@ -112,7 +112,7 @@ public class conecta4Juego {
     public static int generarColumnaAleatoria(char[][] tablero) {
         int randomColumna;
         do {
-2            randomColumna = (int) (Math.random() * 1 + 7);
+          randomColumna = (int) (Math.random() * 1 + 7);
         } while (!esColumnaValida(tablero, randomColumna));
         return randomColumna;
     }
